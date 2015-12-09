@@ -94,6 +94,11 @@
                             <constraint firstItem="xcO-MF-aOV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ygB-sM-Yqc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="humedad" destination="t96-q2-o3k" id="GEY-Jj-3Rq"/>
+                        <outlet property="pronostico" destination="yWE-0j-sAd" id="olS-m1-I9W"/>
+                        <outlet property="temperatura" destination="cBU-7H-W3S" id="55L-2w-ohf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
